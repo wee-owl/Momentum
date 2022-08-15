@@ -1,1 +1,227 @@
-var _0x97e1=["\x2E\x74\x69\x6D\x65","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x2E\x64\x61\x74\x65","\x2E\x67\x72\x65\x65\x74\x69\x6E\x67","\x2E\x6E\x61\x6D\x65","\x2E\x63\x69\x74\x79","\x62\x6F\x64\x79","\x2E\x73\x6C\x69\x64\x65\x2D\x70\x72\x65\x76","\x2E\x73\x6C\x69\x64\x65\x2D\x6E\x65\x78\x74","\x2E\x77\x65\x61\x74\x68\x65\x72\x2D\x69\x63\x6F\x6E","\x2E\x74\x65\x6D\x70\x65\x72\x61\x74\x75\x72\x65","\x2E\x77\x65\x61\x74\x68\x65\x72\x2D\x64\x65\x73\x63\x72\x69\x70\x74\x69\x6F\x6E","\x2E\x77\x69\x6E\x64","\x2E\x68\x75\x6D\x69\x64\x69\x74\x79","\x2E\x77\x65\x61\x74\x68\x65\x72\x2D\x65\x72\x72\x6F\x72","\x2E\x71\x75\x6F\x74\x65","\x2E\x61\x75\x74\x68\x6F\x72","\x2E\x63\x68\x61\x6E\x67\x65\x2D\x71\x75\x6F\x74\x65","\x2E\x70\x6C\x61\x79","\x2E\x70\x6C\x61\x79\x2D\x70\x72\x65\x76","\x2E\x70\x6C\x61\x79\x2D\x6E\x65\x78\x74","\x2E\x70\x6C\x61\x79\x2D\x6C\x69\x73\x74","\x6C\x6F\x6E\x67","\x6E\x75\x6D\x65\x72\x69\x63","\x55\x54\x43","\x65\x6E\x2D\x45\x6E","\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x44\x61\x74\x65\x53\x74\x72\x69\x6E\x67","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x67\x65\x74\x48\x6F\x75\x72\x73","\x65\x76\x65\x6E\x69\x6E\x67","\x61\x66\x74\x65\x72\x6E\x6F\x6F\x6E","\x6D\x6F\x72\x6E\x69\x6E\x67","\x6E\x69\x67\x68\x74","\x47\x6F\x6F\x64\x20","\x2C","\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x54\x69\x6D\x65\x53\x74\x72\x69\x6E\x67","\x6E\x61\x6D\x65","\x76\x61\x6C\x75\x65","\x73\x65\x74\x49\x74\x65\x6D","\x63\x69\x74\x79","\x62\x65\x66\x6F\x72\x65\x75\x6E\x6C\x6F\x61\x64","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x67\x65\x74\x49\x74\x65\x6D","\x4D\x69\x6E\x73\x6B","\x6C\x6F\x61\x64","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x61\x77\x2E\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6F\x6E\x74\x65\x6E\x74\x2E\x63\x6F\x6D\x2F\x77\x65\x65\x2D\x6F\x77\x6C\x2F\x73\x74\x61\x67\x65\x31\x2D\x74\x61\x73\x6B\x73\x2F\x61\x73\x73\x65\x74\x73\x2F\x69\x6D\x61\x67\x65\x73\x2F","\x2F","\x30","\x70\x61\x64\x53\x74\x61\x72\x74","\x2E\x6A\x70\x67","\x6F\x6E\x6C\x6F\x61\x64","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x49\x6D\x61\x67\x65","\x73\x74\x79\x6C\x65","\x75\x72\x6C\x28","\x29","\x63\x6C\x69\x63\x6B","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x69\x2E\x6F\x70\x65\x6E\x77\x65\x61\x74\x68\x65\x72\x6D\x61\x70\x2E\x6F\x72\x67\x2F\x64\x61\x74\x61\x2F\x32\x2E\x35\x2F\x77\x65\x61\x74\x68\x65\x72\x3F\x71\x3D","\x26\x6C\x61\x6E\x67\x3D\x65\x6E\x26\x61\x70\x70\x69\x64\x3D\x33\x38\x36\x37\x37\x39\x33\x64\x33\x36\x63\x37\x39\x30\x39\x33\x35\x34\x35\x37\x35\x61\x37\x35\x64\x63\x34\x66\x33\x66\x62\x36\x26\x75\x6E\x69\x74\x73\x3D\x6D\x65\x74\x72\x69\x63","\x6A\x73\x6F\x6E","\x63\x6F\x64","\x34\x30\x34","\x34\x30\x30","","\x6D\x65\x73\x73\x61\x67\x65","\x6F\x77\x66\x2D","\x69\x64","\x77\x65\x61\x74\x68\x65\x72","\x61\x64\x64","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x74\x65\x6D\x70","\x6D\x61\x69\x6E","\xB0\x43","\x64\x65\x73\x63\x72\x69\x70\x74\x69\x6F\x6E","\x57\x69\x6E\x64\x20\x73\x70\x65\x65\x64\x3A\x20","\x73\x70\x65\x65\x64","\x77\x69\x6E\x64","\x20\x6D\x2F\x73","\x48\x75\x6D\x69\x64\x69\x74\x79\x3A\x20","\x68\x75\x6D\x69\x64\x69\x74\x79","\x25","\x6F\x6E\x63\x68\x61\x6E\x67\x65","\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x77\x65\x61\x74\x68\x65\x72\x2D\x69\x63\x6F\x6E\x20\x6F\x77\x66","\x2F\x4D\x6F\x6D\x65\x6E\x74\x75\x6D\x2F\x6A\x73\x2F\x64\x61\x74\x61\x2E\x6A\x73\x6F\x6E","\x6C\x65\x6E\x67\x74\x68","\x74\x65\x78\x74","\x61\x75\x74\x68\x6F\x72","\x42\x69\x72\x64\x73","\x2F\x4D\x6F\x6D\x65\x6E\x74\x75\x6D\x2F\x61\x73\x73\x65\x74\x73\x2F\x73\x6F\x75\x6E\x64\x73\x2F\x42\x69\x72\x64\x73\x2E\x6D\x70\x33","\x4A\x61\x70\x61\x6E","\x2F\x4D\x6F\x6D\x65\x6E\x74\x75\x6D\x2F\x61\x73\x73\x65\x74\x73\x2F\x73\x6F\x75\x6E\x64\x73\x2F\x4A\x61\x70\x61\x6E\x2E\x6D\x70\x33","\x50\x69\x61\x6E\x6F","\x2F\x4D\x6F\x6D\x65\x6E\x74\x75\x6D\x2F\x61\x73\x73\x65\x74\x73\x2F\x73\x6F\x75\x6E\x64\x73\x2F\x50\x69\x61\x6E\x6F\x2E\x6D\x70\x33","\x54\x72\x6F\x70\x69\x63","\x2F\x4D\x6F\x6D\x65\x6E\x74\x75\x6D\x2F\x61\x73\x73\x65\x74\x73\x2F\x73\x6F\x75\x6E\x64\x73\x2F\x54\x72\x6F\x70\x69\x63\x2E\x6D\x70\x33","\x6C\x69","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x61\x70\x70\x65\x6E\x64","\x64\x69\x76","\x70\x6C\x61\x79\x2D\x69\x74\x65\x6D","\x73\x70\x61\x6E","\x74\x69\x74\x6C\x65","\x66\x6F\x72\x45\x61\x63\x68","\x2E\x70\x6C\x61\x79\x2D\x69\x74\x65\x6D","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x70\x61\x75\x73\x65","\x69\x74\x65\x6D\x2D\x61\x63\x74\x69\x76\x65","\x72\x65\x6D\x6F\x76\x65","\x70\x6C\x61\x79","\x65\x6E\x64\x65\x64","\x73\x72\x63\x45\x6C\x65\x6D\x65\x6E\x74","\x77\x69\x64\x74\x68","\x63\x6C\x69\x65\x6E\x74\x57\x69\x64\x74\x68","\x6F\x66\x66\x73\x65\x74\x58","\x64\x75\x72\x61\x74\x69\x6F\x6E","\x63\x75\x72\x72\x65\x6E\x74\x54\x69\x6D\x65","\x74\x69\x6D\x65\x75\x70\x64\x61\x74\x65","\x3A"];const time=document[_0x97e1[1]](_0x97e1[0]),date=document[_0x97e1[1]](_0x97e1[2]),greeting=document[_0x97e1[1]](_0x97e1[3]),userName=document[_0x97e1[1]](_0x97e1[4]),city=document[_0x97e1[1]](_0x97e1[5]),body=document[_0x97e1[1]](_0x97e1[6]),slidePrev=document[_0x97e1[1]](_0x97e1[7]),slideNext=document[_0x97e1[1]](_0x97e1[8]),weatherIcon=document[_0x97e1[1]](_0x97e1[9]),temperature=document[_0x97e1[1]](_0x97e1[10]),weatherDescription=document[_0x97e1[1]](_0x97e1[11]),wind=document[_0x97e1[1]](_0x97e1[12]),humidity=document[_0x97e1[1]](_0x97e1[13]),error=document[_0x97e1[1]](_0x97e1[14]),quote=document[_0x97e1[1]](_0x97e1[15]),author=document[_0x97e1[1]](_0x97e1[16]),changeQuote=document[_0x97e1[1]](_0x97e1[17]),playButton=document[_0x97e1[1]](_0x97e1[18]),playPrevButton=document[_0x97e1[1]](_0x97e1[19]),playNextButton=document[_0x97e1[1]](_0x97e1[20]),playListContainer=document[_0x97e1[1]](_0x97e1[21]);let randomNum;let isPlay=false;let playNum=0;const showDate=()=>{const _0x67e5x1a= new Date();const _0x67e5x1b={weekday:_0x97e1[22],month:_0x97e1[22],day:_0x97e1[23],timeZone:_0x97e1[24]};const _0x67e5x1c=_0x67e5x1a[_0x97e1[26]](_0x97e1[25],_0x67e5x1b);date[_0x97e1[27]]= _0x67e5x1c};const getHours=()=>{const date= new Date();const _0x67e5x1e=date[_0x97e1[28]]();return _0x67e5x1e};const getTimeOfDay=()=>{const _0x67e5x1e=getHours();let _0x67e5x20;if(_0x67e5x1e> 17){_0x67e5x20= _0x97e1[29]}else {if(_0x67e5x1e> 11){_0x67e5x20= _0x97e1[30]}else {_0x67e5x1e> 5?(_0x67e5x20= _0x97e1[31]):(_0x67e5x20= _0x97e1[32])}};return _0x67e5x20};getTimeOfDay();const showGreeting=()=>{const _0x67e5x20=getTimeOfDay();greeting[_0x97e1[27]]= `${_0x97e1[33]}${_0x67e5x20}${_0x97e1[34]}`};const showTime=()=>{const date= new Date();const _0x67e5x23=date[_0x97e1[35]]();time[_0x97e1[27]]= _0x67e5x23;showDate();showGreeting();setTimeout(showTime,1000)};showTime();const setLocalStorage=()=>{localStorage[_0x97e1[38]](_0x97e1[36],userName[_0x97e1[37]]);localStorage[_0x97e1[38]](_0x97e1[39],city[_0x97e1[37]])};window[_0x97e1[41]](_0x97e1[40],setLocalStorage);const getLocalStorage=()=>{if(localStorage[_0x97e1[42]](_0x97e1[36])){userName[_0x97e1[37]]= localStorage[_0x97e1[42]](_0x97e1[36])};if(localStorage[_0x97e1[42]](_0x97e1[39])){city[_0x97e1[37]]= localStorage[_0x97e1[42]](_0x97e1[39])}else {city[_0x97e1[37]]= _0x97e1[43]}};window[_0x97e1[41]](_0x97e1[44],getLocalStorage);const getRandomNum=()=>{randomNum= Math[_0x97e1[46]](Math[_0x97e1[45]]()* (21- 1))+ 1};getRandomNum();const setBg=()=>{const _0x67e5x20=getTimeOfDay();const _0x67e5x28=randomNum;const _0x67e5x29= new Image();_0x67e5x29[_0x97e1[47]]= `${_0x97e1[48]}${_0x67e5x20}${_0x97e1[49]}${_0x67e5x28.toString()[_0x97e1[51]](2,_0x97e1[50])}${_0x97e1[52]}`;_0x67e5x29[_0x97e1[53]]= ()=>{body[_0x97e1[55]][_0x97e1[54]]= `${_0x97e1[56]}${_0x67e5x29[_0x97e1[47]]}${_0x97e1[57]}`}};setBg();const getSlideNext=()=>{randomNum++;if(randomNum> 20){randomNum= 1};setBg()};slideNext[_0x97e1[41]](_0x97e1[58],getSlideNext);const getSlidePrev=()=>{randomNum--;if(randomNum< 1){randomNum= 20};setBg()};slidePrev[_0x97e1[41]](_0x97e1[58],getSlidePrev);async function getWeather(){city[_0x97e1[37]]= localStorage[_0x97e1[42]](_0x97e1[39]);const _0x67e5x2d=`${_0x97e1[59]}${city[_0x97e1[37]]}${_0x97e1[60]}`;const _0x67e5x2e= await fetch(_0x67e5x2d);const _0x67e5x2f= await _0x67e5x2e[_0x97e1[61]]();if(_0x67e5x2f[_0x97e1[62]]=== _0x97e1[63]|| _0x67e5x2f[_0x97e1[62]]=== _0x97e1[64]){temperature[_0x97e1[27]]= _0x97e1[65];weatherDescription[_0x97e1[27]]= _0x97e1[65];wind[_0x97e1[27]]= _0x97e1[65];humidity[_0x97e1[27]]= _0x97e1[65];error[_0x97e1[27]]= _0x67e5x2f[_0x97e1[66]]}else {weatherIcon[_0x97e1[71]][_0x97e1[70]](`${_0x97e1[67]}${_0x67e5x2f[_0x97e1[69]][0][_0x97e1[68]]}${_0x97e1[65]}`);temperature[_0x97e1[27]]= `${_0x97e1[65]}${Math[_0x97e1[46]](_0x67e5x2f[_0x97e1[73]][_0x97e1[72]])}${_0x97e1[74]}`;weatherDescription[_0x97e1[27]]= _0x67e5x2f[_0x97e1[69]][0][_0x97e1[75]];wind[_0x97e1[27]]= `${_0x97e1[76]}${Math[_0x97e1[46]](_0x67e5x2f[_0x97e1[78]][_0x97e1[77]])}${_0x97e1[79]}`;humidity[_0x97e1[27]]= `${_0x97e1[80]}${_0x67e5x2f[_0x97e1[73]][_0x97e1[81]]}${_0x97e1[82]}`;error[_0x97e1[27]]= _0x97e1[65]}}getWeather();city[_0x97e1[83]]= ()=>{localStorage[_0x97e1[38]](_0x97e1[39],city[_0x97e1[37]]);weatherIcon[_0x97e1[84]]= _0x97e1[85];getWeather()};async function getQuotes(){const _0x67e5x31=_0x97e1[86];const _0x67e5x2e= await fetch(_0x67e5x31);const _0x67e5x2f= await _0x67e5x2e[_0x97e1[61]]();const randomNum=Math[_0x97e1[46]](Math[_0x97e1[45]]()* (_0x67e5x2f[_0x97e1[87]]- 0))+ 0;quote[_0x97e1[27]]= _0x67e5x2f[randomNum][_0x97e1[88]];author[_0x97e1[27]]= _0x67e5x2f[randomNum][_0x97e1[89]]}getQuotes();changeQuote[_0x97e1[41]](_0x97e1[58],getQuotes);const playList=[{title:_0x97e1[90],src:_0x97e1[91]},{title:_0x97e1[92],src:_0x97e1[93]},{title:_0x97e1[94],src:_0x97e1[95]},{title:_0x97e1[96],src:_0x97e1[97]}];const buildPlayList=()=>{playList[_0x97e1[105]]((_0x67e5x34)=>{const _0x67e5x35=document[_0x97e1[99]](_0x97e1[98]);playListContainer[_0x97e1[100]](_0x67e5x35);const _0x67e5x36=document[_0x97e1[99]](_0x97e1[101]);_0x67e5x36[_0x97e1[71]][_0x97e1[70]](_0x97e1[102]);_0x67e5x35[_0x97e1[100]](_0x67e5x36);const _0x67e5x37=document[_0x97e1[99]](_0x97e1[103]);_0x67e5x37[_0x97e1[27]]= _0x67e5x34[_0x97e1[104]];_0x67e5x36[_0x97e1[100]](_0x67e5x37)})};buildPlayList();const audio= new Audio();const playItem=document[_0x97e1[107]](_0x97e1[106]);const playAudio=()=>{if(!isPlay){audio[_0x97e1[47]]= playList[playNum][_0x97e1[47]];isPlay= true;playButton[_0x97e1[71]][_0x97e1[70]](_0x97e1[108]);playItem[_0x97e1[105]]((_0x67e5x34)=>{_0x67e5x34[_0x97e1[71]][_0x97e1[110]](_0x97e1[109])});playItem[playNum][_0x97e1[71]][_0x97e1[70]](_0x97e1[109]);audio[_0x97e1[111]]()}else {isPlay= false;playButton[_0x97e1[71]][_0x97e1[110]](_0x97e1[108]);audio[_0x97e1[108]]()}};playButton[_0x97e1[41]](_0x97e1[58],playAudio);playItem[_0x97e1[105]]((_0x67e5x34,_0x67e5x3b)=>{_0x67e5x34[_0x97e1[41]](_0x97e1[58],()=>{playNum= _0x67e5x3b;isPlay= false})});const playNext=()=>{playNum+= 1;if(playNum> playList[_0x97e1[87]]- 1){playNum= 0};isPlay= false;playAudio()};playNextButton[_0x97e1[41]](_0x97e1[58],playNext);const playPrev=()=>{playNum-= 1;if(playNum< 0){playNum= playList[_0x97e1[87]]- 1};isPlay= false;playAudio()};playPrevButton[_0x97e1[41]](_0x97e1[58],playPrev);audio[_0x97e1[41]](_0x97e1[112],playNext);const updateProgress=(_0x67e5x3f)=>{const {duration,currentTime}=_0x67e5x3f[_0x97e1[113]];const _0x67e5x40=(currentTime/ duration)* 100;progress[playNum][_0x97e1[55]][_0x97e1[114]]= `${_0x97e1[65]}${_0x67e5x40}${_0x97e1[82]}`};const setProgress=(_0x67e5x3f)=>{const _0x67e5x42=progressContainer[playNum][_0x97e1[115]];const _0x67e5x43=_0x67e5x3f[_0x97e1[116]];const _0x67e5x44=audio[_0x97e1[117]];audio[_0x97e1[118]]= (_0x67e5x43/ _0x67e5x42)* _0x67e5x44};audio[_0x97e1[41]](_0x97e1[119],updateProgress);progressContainer[_0x97e1[105]]((_0x67e5x34)=>{_0x67e5x34[_0x97e1[41]](_0x97e1[58],setProgress)});const getCurrTime=()=>{const _0x67e5x46=audio[_0x97e1[118]];let _0x67e5x47;let _0x67e5x48=_0x67e5x46=== null?0:Math[_0x97e1[46]](_0x67e5x46/ 60);_0x67e5x48= _0x67e5x48< 10?_0x97e1[50]+ _0x67e5x48:_0x67e5x48;const _0x67e5x49=(_0x67e5x4a)=>{if(Math[_0x97e1[46]](_0x67e5x4a)>= 60){for(let _0x67e5x4b=1;_0x67e5x4b<= 60;_0x67e5x4b++){if(Math[_0x97e1[46]](_0x67e5x4a)>= 60* _0x67e5x4b&& Math[_0x97e1[46]](_0x67e5x4a)< 60* (_0x67e5x4b+ 1)){_0x67e5x47= Math[_0x97e1[46]](_0x67e5x4a)- 60* _0x67e5x4b;_0x67e5x47= _0x67e5x47< 10?_0x97e1[50]+ _0x67e5x47:_0x67e5x47}}}else {_0x67e5x47= Math[_0x97e1[46]](_0x67e5x4a);_0x67e5x47= _0x67e5x47< 10?_0x97e1[50]+ _0x67e5x47:_0x67e5x47}};_0x67e5x49(_0x67e5x46);times[_0x97e1[105]]((_0x67e5x34,_0x67e5x3b)=>{_0x67e5x34[_0x97e1[27]]= playList[_0x67e5x3b][_0x97e1[117]]});times[playNum][_0x97e1[27]]= _0x67e5x48+ _0x97e1[120]+ _0x67e5x47};audio[_0x97e1[41]](_0x97e1[119],getCurrTime)
+var _$_b662 = ["\x2E\x74\x69\x6D\x65", "\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72", "\x2E\x64\x61\x74\x65", "\x2E\x67\x72\x65\x65\x74\x69\x6E\x67", "\x2E\x6E\x61\x6D\x65", "\x2E\x63\x69\x74\x79", "\x62\x6F\x64\x79", "\x2E\x73\x6C\x69\x64\x65\x2D\x70\x72\x65\x76", "\x2E\x73\x6C\x69\x64\x65\x2D\x6E\x65\x78\x74", "\x2E\x77\x65\x61\x74\x68\x65\x72\x2D\x69\x63\x6F\x6E", "\x2E\x74\x65\x6D\x70\x65\x72\x61\x74\x75\x72\x65", "\x2E\x77\x65\x61\x74\x68\x65\x72\x2D\x64\x65\x73\x63\x72\x69\x70\x74\x69\x6F\x6E", "\x2E\x77\x69\x6E\x64", "\x2E\x68\x75\x6D\x69\x64\x69\x74\x79", "\x2E\x77\x65\x61\x74\x68\x65\x72\x2D\x65\x72\x72\x6F\x72", "\x2E\x71\x75\x6F\x74\x65", "\x2E\x61\x75\x74\x68\x6F\x72", "\x2E\x63\x68\x61\x6E\x67\x65\x2D\x71\x75\x6F\x74\x65", "\x2E\x70\x6C\x61\x79", "\x2E\x70\x6C\x61\x79\x2D\x70\x72\x65\x76", "\x2E\x70\x6C\x61\x79\x2D\x6E\x65\x78\x74", "\x2E\x70\x6C\x61\x79\x2D\x6C\x69\x73\x74", "\x6C\x6F\x6E\x67", "\x6E\x75\x6D\x65\x72\x69\x63", "\x55\x54\x43", "\x65\x6E\x2D\x45\x6E", "\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x44\x61\x74\x65\x53\x74\x72\x69\x6E\x67", "\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74", "\x67\x65\x74\x48\x6F\x75\x72\x73", "\x65\x76\x65\x6E\x69\x6E\x67", "\x61\x66\x74\x65\x72\x6E\x6F\x6F\x6E", "\x6D\x6F\x72\x6E\x69\x6E\x67", "\x6E\x69\x67\x68\x74", "\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x54\x69\x6D\x65\x53\x74\x72\x69\x6E\x67", "\x6E\x61\x6D\x65", "\x76\x61\x6C\x75\x65", "\x73\x65\x74\x49\x74\x65\x6D", "\x63\x69\x74\x79", "\x62\x65\x66\x6F\x72\x65\x75\x6E\x6C\x6F\x61\x64", "\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72", "\x67\x65\x74\x49\x74\x65\x6D", "\x4D\x69\x6E\x73\x6B", "\x6C\x6F\x61\x64", "\x72\x61\x6E\x64\x6F\x6D", "\x66\x6C\x6F\x6F\x72", "\x73\x72\x63", "\x30", "\x70\x61\x64\x53\x74\x61\x72\x74", "\x74\x6F\x53\x74\x72\x69\x6E\x67", "\x6F\x6E\x6C\x6F\x61\x64", "\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x49\x6D\x61\x67\x65", "\x73\x74\x79\x6C\x65", "\x63\x6C\x69\x63\x6B", "\x6A\x73\x6F\x6E", "\x63\x6F\x64", "\x34\x30\x34", "\x34\x30\x30", "", "\x6D\x65\x73\x73\x61\x67\x65", "\x69\x64", "\x77\x65\x61\x74\x68\x65\x72", "\x61\x64\x64", "\x63\x6C\x61\x73\x73\x4C\x69\x73\x74", "\x74\x65\x6D\x70", "\x6D\x61\x69\x6E", "\x64\x65\x73\x63\x72\x69\x70\x74\x69\x6F\x6E", "\x73\x70\x65\x65\x64", "\x77\x69\x6E\x64", "\x68\x75\x6D\x69\x64\x69\x74\x79", "\x6F\x6E\x63\x68\x61\x6E\x67\x65", "\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65", "\x77\x65\x61\x74\x68\x65\x72\x2D\x69\x63\x6F\x6E\x20\x6F\x77\x66", "\x2F\x4D\x6F\x6D\x65\x6E\x74\x75\x6D\x2F\x6A\x73\x2F\x64\x61\x74\x61\x2E\x6A\x73\x6F\x6E", "\x6C\x65\x6E\x67\x74\x68", "\x74\x65\x78\x74", "\x61\x75\x74\x68\x6F\x72", "\x42\x69\x72\x64\x73", "\x2F\x4D\x6F\x6D\x65\x6E\x74\x75\x6D\x2F\x61\x73\x73\x65\x74\x73\x2F\x73\x6F\x75\x6E\x64\x73\x2F\x42\x69\x72\x64\x73\x2E\x6D\x70\x33", "\x4A\x61\x70\x61\x6E", "\x2F\x4D\x6F\x6D\x65\x6E\x74\x75\x6D\x2F\x61\x73\x73\x65\x74\x73\x2F\x73\x6F\x75\x6E\x64\x73\x2F\x4A\x61\x70\x61\x6E\x2E\x6D\x70\x33", "\x50\x69\x61\x6E\x6F", "\x2F\x4D\x6F\x6D\x65\x6E\x74\x75\x6D\x2F\x61\x73\x73\x65\x74\x73\x2F\x73\x6F\x75\x6E\x64\x73\x2F\x50\x69\x61\x6E\x6F\x2E\x6D\x70\x33", "\x54\x72\x6F\x70\x69\x63", "\x2F\x4D\x6F\x6D\x65\x6E\x74\x75\x6D\x2F\x61\x73\x73\x65\x74\x73\x2F\x73\x6F\x75\x6E\x64\x73\x2F\x54\x72\x6F\x70\x69\x63\x2E\x6D\x70\x33", "\x6C\x69", "\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74", "\x61\x70\x70\x65\x6E\x64", "\x64\x69\x76", "\x70\x6C\x61\x79\x2D\x69\x74\x65\x6D", "\x73\x70\x61\x6E", "\x74\x69\x74\x6C\x65", "\x66\x6F\x72\x45\x61\x63\x68", "\x2E\x70\x6C\x61\x79\x2D\x69\x74\x65\x6D", "\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C", "\x70\x61\x75\x73\x65", "\x69\x74\x65\x6D\x2D\x61\x63\x74\x69\x76\x65", "\x72\x65\x6D\x6F\x76\x65", "\x70\x6C\x61\x79", "\x65\x6E\x64\x65\x64"];
+const playButton = document[_$_b662[1]](_$_b662[18]),
+    playPrevButton = document[_$_b662[1]](_$_b662[19]),
+    playNextButton = document[_$_b662[1]](_$_b662[20]),
+    playListContainer = document[_$_b662[1]](_$_b662[21]),
+    weatherIcon = document[_$_b662[1]](_$_b662[9]),
+    city = document[_$_b662[1]](_$_b662[5]),
+    temperature = document[_$_b662[1]](_$_b662[10]),
+    weatherDescription = document[_$_b662[1]](_$_b662[11]),
+    wind = document[_$_b662[1]](_$_b662[12]),
+    humidity = document[_$_b662[1]](_$_b662[13]),
+    error = document[_$_b662[1]](_$_b662[14]),
+    time = document[_$_b662[1]](_$_b662[0]),
+    date = document[_$_b662[1]](_$_b662[2]),
+    greeting = document[_$_b662[1]](_$_b662[3]),
+    userName = document[_$_b662[1]](_$_b662[4]),
+    body = document[_$_b662[1]](_$_b662[6]),
+    slidePrev = document[_$_b662[1]](_$_b662[7]),
+    slideNext = document[_$_b662[1]](_$_b662[8]),
+    quote = document[_$_b662[1]](_$_b662[15]),
+    author = document[_$_b662[1]](_$_b662[16]),
+    changeQuote = document[_$_b662[1]](_$_b662[17]);//1
+let randomNum; //23
+let isPlay = false; //24
+let playNum = 0; //25
+const showDate = () => {
+    const _0x154D0 = new Date(); //29
+    const _0x154FC = {
+        weekday: _$_b662[22],
+        month: _$_b662[22],
+        day: _$_b662[23],
+        timeZone: _$_b662[24]
+    }; //30
+    const _0x154A4 = _0x154D0[_$_b662[26]](_$_b662[25], _0x154FC); //36
+    date[_$_b662[27]] = _0x154A4
+}; //28
+const getHours = () => {
+    const date = new Date(); //42
+    const _0x15528 = date[_$_b662[28]](); //43
+    return _0x15528
+}; //41
+const getTimeOfDay = () => {
+    const _0x15528 = getHours(); //48
+    let _0x15554; //49
+    if (_0x15528 > 17) {
+        _0x15554 = _$_b662[29]
+    } else {
+        if (_0x15528 > 11) {
+            _0x15554 = _$_b662[30]
+        } else {
+            _0x15528 > 5 ? (_0x15554 = _$_b662[31]) : (_0x15554 = _$_b662[32])
+        }
+    }
+    //50
+    return _0x15554
+}; //47
+getTimeOfDay();
+const showGreeting = () => {
+    const _0x15554 = getTimeOfDay(); //64
+    greeting[_$_b662[27]] = `Good ${_0x15554},`
+}; //63
+const showTime = () => {
+    const date = new Date(); //69
+    const _0x15580 = date[_$_b662[33]](); //70
+    time[_$_b662[27]] = _0x15580;
+    showDate();
+    showGreeting();
+    setTimeout(showTime, 1000)
+}; //68
+showTime();
+const setLocalStorage = () => {
+    localStorage[_$_b662[36]](_$_b662[34], userName[_$_b662[35]]);
+    localStorage[_$_b662[36]](_$_b662[37], city[_$_b662[35]])
+}; //79
+window[_$_b662[39]](_$_b662[38], setLocalStorage);
+const getLocalStorage = () => {
+    if (localStorage[_$_b662[40]](_$_b662[34])) {
+        userName[_$_b662[35]] = localStorage[_$_b662[40]](_$_b662[34])
+    }
+    //86
+    if (localStorage[_$_b662[40]](_$_b662[37])) {
+        city[_$_b662[35]] = localStorage[_$_b662[40]](_$_b662[37])
+    } else {
+        city[_$_b662[35]] = _$_b662[41]
+    }
+}; //85
+window[_$_b662[39]](_$_b662[42], getLocalStorage);
+const getRandomNum = () => {
+    randomNum = Math[_$_b662[44]](Math[_$_b662[43]]() * (21 - 1)) + 1
+}; //98
+getRandomNum();
+const setBg = () => {
+    const _0x15554 = getTimeOfDay(); //104
+    const _0x155AC = randomNum; //105
+    const _0x155D8 = new Image(); //106
+    _0x155D8[_$_b662[45]] = `https://raw.githubusercontent.com/wee-owl/stage1-tasks/assets/images/${_0x15554}/${_0x155AC[_$_b662[48]]()[_$_b662[47]](2,_$_b662[46])}.jpg`;
+    _0x155D8[_$_b662[49]] = () => {
+        body[_$_b662[51]][_$_b662[50]] = `url(${_0x155D8[_$_b662[45]]})`
+    }
+}; //103
+setBg();
+const getSlideNext = () => {
+    randomNum++;
+    if (randomNum > 20) {
+        randomNum = 1
+    }
+    //116
+    setBg()
+}; //114
+slideNext[_$_b662[39]](_$_b662[52], getSlideNext);
+const getSlidePrev = () => {
+    randomNum--;
+    if (randomNum < 1) {
+        randomNum = 20
+    }
+    //124
+    setBg()
+}; //122
+slidePrev[_$_b662[39]](_$_b662[52], getSlidePrev);
+async function getWeather() {
+    city[_$_b662[35]] = localStorage[_$_b662[40]](_$_b662[37]);
+    const _0x15764 = `https://api.openweathermap.org/data/2.5/weather?q=${city[_$_b662[35]]}&lang=en&appid=3867793d36c7909354575a75dc4f3fb6&units=metric`; //133
+    const _0x15738 = await fetch(_0x15764); //134
+    const _0x156E0 = await _0x15738[_$_b662[53]](); //135
+    if (_0x156E0[_$_b662[54]] === _$_b662[55] || _0x156E0[_$_b662[54]] === _$_b662[56]) {
+        temperature[_$_b662[27]] = _$_b662[57];
+        weatherDescription[_$_b662[27]] = _$_b662[57];
+        wind[_$_b662[27]] = _$_b662[57];
+        humidity[_$_b662[27]] = _$_b662[57];
+        error[_$_b662[27]] = _0x156E0[_$_b662[58]]
+    } else {
+        weatherIcon[_$_b662[62]][_$_b662[61]](`owf-${_0x156E0[_$_b662[60]][0][_$_b662[59]]}`);
+        temperature[_$_b662[27]] = `${Math[_$_b662[44]](_0x156E0[_$_b662[64]][_$_b662[63]])}°C`;
+        weatherDescription[_$_b662[27]] = _0x156E0[_$_b662[60]][0][_$_b662[65]];
+        wind[_$_b662[27]] = `Wind speed: ${Math[_$_b662[44]](_0x156E0[_$_b662[67]][_$_b662[66]])} m/s`;
+        humidity[_$_b662[27]] = `Humidity: ${_0x156E0[_$_b662[64]][_$_b662[68]]}%`;
+        error[_$_b662[27]] = _$_b662[57]
+    }
+}
+getWeather();
+city[_$_b662[69]] = () => {
+    localStorage[_$_b662[36]](_$_b662[37], city[_$_b662[35]]);
+    weatherIcon[_$_b662[70]] = _$_b662[71];
+    getWeather()
+};
+async function getQuotes() {
+    const _0x1570C = _$_b662[72]; //162
+    const _0x15738 = await fetch(_0x1570C); //163
+    const _0x156E0 = await _0x15738[_$_b662[53]](); //164
+    const randomNum = Math[_$_b662[44]](Math[_$_b662[43]]() * (_0x156E0[_$_b662[73]] - 0)) + 0; //165
+    quote[_$_b662[27]] = _0x156E0[randomNum][_$_b662[74]];
+    author[_$_b662[27]] = _0x156E0[randomNum][_$_b662[75]]
+}
+getQuotes();
+changeQuote[_$_b662[39]](_$_b662[52], getQuotes);
+const playList = [{
+    title: _$_b662[76],
+    src: _$_b662[77]
+}, {
+    title: _$_b662[78],
+    src: _$_b662[79]
+}, {
+    title: _$_b662[80],
+    src: _$_b662[81]
+}, {
+    title: _$_b662[82],
+    src: _$_b662[83]
+}]; //173
+const buildPlayList = () => {
+    playList[_$_b662[91]]((_0x15630) => {
+        const _0x1565C = document[_$_b662[85]](_$_b662[84]); //189
+        playListContainer[_$_b662[86]](_0x1565C);
+        const _0x15604 = document[_$_b662[85]](_$_b662[87]); //192
+        _0x15604[_$_b662[62]][_$_b662[61]](_$_b662[88]);
+        _0x1565C[_$_b662[86]](_0x15604);
+        const _0x15688 = document[_$_b662[85]](_$_b662[89]); //196
+        _0x15688[_$_b662[27]] = _0x15630[_$_b662[90]];
+        _0x15604[_$_b662[86]](_0x15688)
+    })
+}; //187
+buildPlayList();
+const audio = new Audio(); //203
+const playItem = document[_$_b662[93]](_$_b662[92]); //204
+const playAudio = () => {
+    if (!isPlay) {
+        audio[_$_b662[45]] = playList[playNum][_$_b662[45]];
+        isPlay = true;
+        playButton[_$_b662[62]][_$_b662[61]](_$_b662[94]);
+        playItem[_$_b662[91]]((_0x15630) => {
+            _0x15630[_$_b662[62]][_$_b662[96]](_$_b662[95])
+        });
+        playItem[playNum][_$_b662[62]][_$_b662[61]](_$_b662[95]);
+        audio[_$_b662[97]]()
+    } else {
+        isPlay = false;
+        playButton[_$_b662[62]][_$_b662[96]](_$_b662[94]);
+        audio[_$_b662[94]]()
+    }
+}; //206
+playButton[_$_b662[39]](_$_b662[52], playAudio);
+playItem[_$_b662[91]]((_0x15630, _0x156B4) => {
+    _0x15630[_$_b662[39]](_$_b662[52], () => {
+        playNum = _0x156B4;
+        isPlay = false
+    })
+});
+const playNext = () => {
+    playNum += 1;
+    if (playNum > playList[_$_b662[73]] - 1) {
+        playNum = 0
+    }
+    //233
+    isPlay = false;
+    playAudio()
+}; //231
+playNextButton[_$_b662[39]](_$_b662[52], playNext);
+const playPrev = () => {
+    playNum -= 1;
+    if (playNum < 0) {
+        playNum = playList[_$_b662[73]] - 1
+    }
+    //243
+    isPlay = false;
+    playAudio()
+}; //241
+playPrevButton[_$_b662[39]](_$_b662[52], playPrev);
+audio[_$_b662[39]](_$_b662[98], playNext);
